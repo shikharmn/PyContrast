@@ -13,7 +13,7 @@ class Normalize(nn.Module):
 
 
 class JigsawHead(nn.Module):
-    """Jigswa + linear + l2norm"""
+    """Jigsaw + linear + l2norm"""
     def __init__(self, dim_in, dim_out, k=9, head='linear'):
         super(JigsawHead, self).__init__()
 
